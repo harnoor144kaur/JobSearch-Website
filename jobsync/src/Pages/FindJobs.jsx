@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import moment from 'moment';
 
 import Banner from '../components/Banner';
-import Card from '../components/card';
+import Card from '../components/Card';
 import Jobs from './Jobs';
 import Sidebar from '../sidebar/Sidebar';
 import Newsletter from '../components/Newsletter';
