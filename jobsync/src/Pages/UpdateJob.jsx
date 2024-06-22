@@ -15,7 +15,7 @@ const UpdateJob = () => {
 
   const onSubmit = (data) => {
     // console.log(data);
-    fetch(`http://localhost:3000/api/apply/update-job/${id}`, {
+    fetch(`https://job-sync.onrender.com/api/apply/update-job/${id}`, {
       method: "PATCH",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
