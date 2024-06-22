@@ -27,7 +27,7 @@ const CalendarComponent = () => {
 
       const email = userDetails.email;
 
-      fetch(`http://localhost:3000/api/apply/MyJobs/${email}`)
+      fetch(`https://job-sync.onrender.com/api/apply/MyJobs/${email}`)
         .then((res) => res.json())
         .then((data) => {
           // console.log(data);
