@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         path: '/edit-job/:id',
         element: <UpdateJob />,
         loader: ({ params }) =>
-          fetch(`http://localhost:3000/api/apply/all-jobs/${params.id}`),
+          fetch(`https://job-sync.onrender.com/api/apply/all-jobs/${params.id}`),
       },
       { path: '/Login', element: <Login /> },
       { path: '/Signup', element: <Signup /> },
