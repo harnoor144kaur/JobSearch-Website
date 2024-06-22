@@ -64,7 +64,7 @@ const ProfilePage = () => {
     };
     console.log(formData);
 
-    fetch("http://localhost:3000/api/user/update-profile", {
+    fetch("https://job-sync.onrender.com/api/user/update-profile", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(formData),
