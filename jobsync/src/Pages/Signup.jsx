@@ -20,7 +20,7 @@ const Signup = () => {
   const signupUser = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:3000/api/user/signup", {
+    const response = await fetch("https://job-sync.onrender.com/api/user/signup", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
