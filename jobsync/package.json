@@ -1,6 +1,6 @@
 {
   "name": "jobsync",
-  "proxy": "http://localhost:3000",
+  "proxy": "https://job-sync.onrender.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
