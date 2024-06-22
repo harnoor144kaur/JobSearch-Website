@@ -10,7 +10,7 @@ const UploadJob = () => {
 
   const onSubmit = (data) => {
     // console.log(data);
-    fetch("http://localhost:3000/api/apply/post-job", {
+    fetch("https://job-sync.onrender.com/api/apply/post-job", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
