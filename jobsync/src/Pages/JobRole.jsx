@@ -42,7 +42,7 @@ const JobRole = () => {
 
     const email = userDetails.email;
 
-    fetch(`http://localhost:3000/api/user/update-interested-fields`, {
+    fetch(`https://job-sync.onrender.com/api/user/update-interested-fields`, {
       method: "PATCH",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ interestedFields, email }),
