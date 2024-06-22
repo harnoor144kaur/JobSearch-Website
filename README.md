@@ -25,3 +25,10 @@ JobSync uses a modular and scalable architecture to ensure optimal performance a
 - Frontend: Built with React.js for a dynamic user interface.
 - Backend: Powered by Node.js and Express.js to handle server-side logic.
 - Database: MongoDB for storing user profiles and job listings.
+- Deployment: Frontend Platform: Vercel and Backend Platform: Render
+
+
+
+
+
+
