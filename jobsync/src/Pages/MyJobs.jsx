@@ -40,7 +40,7 @@ const MyJobs = () => {
   // useEffect(() => {
   //   setIsLoading(true);
 
-  //   fetch(`http://localhost:3000/api/apply/MyJobs/harnoor144kaur@gmail.com`)
+  //   fetch(`https://job-sync.onrender.com/api/apply/MyJobs/harnoor144kaur@gmail.com`)
   //     .then((res) => res.json())
   //     .then((data) => {
   //       console.log(data);
@@ -79,7 +79,7 @@ const MyJobs = () => {
 
   const handleDelete = (id) => {
     // console.log(id);
-    fetch(`http://localhost:3000/api/apply/job/${id}`, {
+    fetch(`https://job-sync.onrender.com/api/apply/job/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json)
