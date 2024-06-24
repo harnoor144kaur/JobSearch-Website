@@ -25,7 +25,7 @@ const FindJobs = () => {
     //     setIsLoading(false);
     //   });
 
-    fetch(`http://localhost:3000/api/job/all-jobs`)
+    fetch(`https://job-sync.onrender.com/api/job/all-jobs`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
